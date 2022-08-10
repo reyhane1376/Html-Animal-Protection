@@ -1,0 +1,93 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 2 versions
+*/
+
+@media only screen and (max-width:1200px) {
+    .wolf-content p {
+        width: 400px;
+    }
+    .monkey-title {
+        text-align: right;
+    }
+    .sky {
+        height: 800px;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .header {
+        height: 400px;
+    }
+    .wolf-content p {
+        width: 100%;
+        text-align: center;
+        background-color: rgba(22, 2, 31, 0.6);
+        padding: 10px;
+        color: white;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+    }
+    .footer {
+        background-position: center;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .header {
+        height: 600px;
+    }
+    .moon {
+        width: 100px;
+    }
+    .wolf-content p {
+        width: 100%;
+        text-align: center;
+        background-color: rgba(22, 2, 31, 0.6);
+        padding: 10px;
+        color: white;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .header {
+        height: 500px;
+    }
+    .monkey-title {
+        color: white;
+        text-align: center;
+    }
+    .wolf-content p {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .header {
+        height: 450px;
+    }
+    .moon {
+        width: 60px;
+        top: 85%;
+    }
+    .footer .overlay {
+        overflow: auto;
+    }
+    .footer .overlay form {
+        width: 300px;
+    }
+    .footer .overlay .description {
+        width: 300px;
+    }
+}
