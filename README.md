@@ -1,8 +1,6 @@
 # Html-Animal-Protection
 
-<video width="400" controls Autoplay=autoplay>
-  <source src="images/page.mov" type="video/mov">
-</video>
+<img src="images/page.png">
 ## Key Topics
 
 * Standard Web Coding
